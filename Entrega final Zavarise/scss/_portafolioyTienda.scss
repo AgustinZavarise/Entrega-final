@@ -1,0 +1,85 @@
+/* Grillas */
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: contenido;
+}
+footer{
+    grid-area: footer;
+}
+
+
+/* Portafolio */
+
+.galeria{
+    margin: 0%;
+    background-color: #EBEBEB;
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "galeria"
+    "footer"
+}
+.padre{
+    margin: 0%;
+    background-color: #EBEBEB;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.imgcontainer{
+    margin-top: 15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: grey;
+}
+
+
+/* Tienda */
+
+.card{
+    background-color: #EBEBEB;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.tienda{
+    width: 288px;
+    height: 327px;
+    margin-top: 10px;
+    border-radius: 4.5px
+}
+
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.precio{
+    margin-bottom: 4px;
+    margin-top: -20px;
+}
+
+
